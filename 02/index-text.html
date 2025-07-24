@@ -1,5 +1,20 @@
 <!doctype html>
 <html lang="ko">
+<style>
+    table {
+        width: 70%;
+        border: 1px solid #222;
+        border-collapse: collapse;
+    }
+    thead{
+        background: #eee;
+    }
+    th,td{
+        border:1px solid #ccc;
+        padding:5px;
+        font-size:0.8em;
+    }
+</style>
 <head>
 	<title>온라인 프로필</title>
 	<meta charset="utf-8">
@@ -60,9 +75,26 @@
             </section>
 
             <!-- 학력 -->
+             <!-- 학교, 과, 상태 -->
             <section>
                 <h2 class="subtitle">Education</h2>
-
+                <table>
+                    <caption>학력 사항</caption>
+                    <thead>
+                        <tr>
+                            <th>출신학교</th>
+                            <th>전공</th>
+                            <th>상태</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>영진전문대학교</td>
+                            <td>글로벌시스템융합과</td>
+                            <td>재학</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
         </div>        
     </div>
